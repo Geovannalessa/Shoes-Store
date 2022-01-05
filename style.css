@@ -4,17 +4,19 @@ body {
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 
+main {
+    margin: 0 380px;
+    display: grid;
+    grid-template-columns: 540px 1fr;
+    grid-template-areas: "Faça-parte-do-time lorem";
+}
+
 header {
     width: 100%;
     height: 122px;
     background-color: whitesmoke;
     box-shadow: 0px 1px 20px #ccc;
     display: flex;
-}
-
-img {
-    width: 200px;
-    height: 104px;
 }
 
 header>div {
@@ -24,11 +26,15 @@ header>div {
     background-color: whitesmoke;
 }
 
+img {
+    width: 200px;
+    height: 104px;
+}
+
 .container {
     width: 960px;
     margin-left: auto;
     margin-right: auto;
-    background-color: whitesmoke
 }
 
 header>div>nav>ul>li {
@@ -41,8 +47,39 @@ header>div>nav>ul>li {
     font-size: 20px;
 }
 
-main {
-    margin: 0 380px;
+#espacos-quadros {
+    width: 430px;
+}
+
+.mensagem {
+    height: 80px;
+    width: 430px;
+}
+
+#upload {
+    width: 90px;
+    color: white;
+    background-color: rgba(163, 159, 159, 0.774);
+    border: none;
+}
+
+#enviar {
+    width: 440px;
+    height: 25px;
+    background-color: rgba(194, 4, 45, 0.746);
+    color: white;
+    border: none;
+}
+
+#Lorem {
+    padding-top: 66px;
+}
+
+footer {
+    background-color: rgba(194, 4, 45, 0.746);
+    margin-top: 50px;
+    width: 100%;
+    height: 222px;
 }
 
 
