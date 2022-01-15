@@ -47,20 +47,17 @@
         font-size: 20px;
     }
     
+    header>div>nav>ul>li:hover {
+        background-color: rgba(211, 211, 211, 0.164);
+    }
+    
     #espacos-quadros {
         width: 430px;
     }
     
-    .mensagem {
+    textarea {
         height: 80px;
         width: 430px;
-    }
-    
-    #upload {
-        width: 90px;
-        color: white;
-        background-color: rgba(163, 159, 159, 0.774);
-        border: none;
     }
     
     #enviar {
@@ -69,6 +66,10 @@
         background-color: rgba(194, 4, 45, 0.746);
         color: white;
         border: none;
+    }
+    
+    #enviar:hover {
+        background-color: rgba(194, 4, 45, 0.527);
     }
     
     footer {
